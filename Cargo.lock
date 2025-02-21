@@ -2726,9 +2726,9 @@ dependencies = [
 
 [[package]]
 name = "mesc"
-version = "0.1.4"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d4effaaca264c057c870afd19cf7137ef000ca64fc7292d5a0634ce5ebbb6e27"
+checksum = "d04b0347d2799ef17df4623dbcb03531031142105168e0c549e0bf1f980e9e7e"
 dependencies = [
  "serde",
  "serde_json",
