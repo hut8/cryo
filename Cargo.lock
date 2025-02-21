@@ -1464,7 +1464,7 @@ dependencies = [
  "cryo_to_df",
  "futures",
  "governor",
- "heck 0.4.1",
+ "heck 0.5.0",
  "indexmap",
  "indicatif",
  "mesc",
