@@ -57,15 +57,15 @@ polars = { version = "0.38.3", features = [
     "dtype-struct",
 ] }
 prefix-hex = "0.7.1"
-pyo3 = { version = "0.20.3", features = ["extension-module"] }
-pyo3-build-config = "0.20.3"
-pyo3-asyncio = { version = "0.20.0", features = ["tokio-runtime"] }
+pyo3 = { version = "0.20", features = ["extension-module"] }
+pyo3-build-config = "0.23.4"
+pyo3-asyncio = { version = "0.20", features = ["tokio-runtime"] }
 pyo3-polars = "0.12.0"
 rand = "0.8.5"
 regex = "1.11.1"
 serde = { version = "1.0.218", features = ["derive"] }
 serde_json = "1.0.139"
-thiserror = "1.0.69"
+thiserror = "^1.0"
 thousands = "0.2.0"
 tokio = { version = "1.43.0", features = ["macros", "rt-multi-thread", "sync"] }
 
